@@ -4,8 +4,8 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            false,
-            "None",
+            true,
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
             0.25
         ],
         [
