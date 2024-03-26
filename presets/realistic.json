@@ -40,8 +40,7 @@
         "Fooocus V2",
         "Juanjo Sharp",
         "Juanjo Photograph",
-        "Juanjo Negative",
-        "Juanjo Cinematic"
+        "Juanjo Negative"
     ],
     "default_aspect_ratio": "1024*1024",
     "checkpoint_downloads": {
