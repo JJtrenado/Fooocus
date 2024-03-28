@@ -42,7 +42,7 @@
         "Juanjo Photograph",
         "Juanjo Negative"
     ],
-    "default_aspect_ratio": "1024*1024",
+    "default_aspect_ratio": "960*1088",
     "checkpoint_downloads": {
         "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
     },
