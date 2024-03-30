@@ -1,22 +1,22 @@
 {
-    "default_model": "realism-engine-sdxl-v3.0VAE.safetensors",
+    "default_model": "realisticStockPhoto_v20.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "RMSDXL_Enhance.safetensors",
-            1
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+            0.25
         ],
         [
-            true,
-            "add-detail-xl.safetensors",
-            0.8
+            false,
+            "None",
+            1.0
         ],
         [
-            true,
-            "The_Dark_Side_of_the_Earth.safetensors",
-            0.2
+            false,
+            "None",
+            1.0
         ],
         [
             false,
@@ -44,13 +44,11 @@
     ],
     "default_aspect_ratio": "960*1088",
     "checkpoint_downloads": {
-        "realism-engine-sdxl-v3.0VAE.safetensors": "https://civitai.com/api/download/models/293240?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "RMSDXL_Enhance.safetensors": "https://civitai.com/api/download/models/268857?type=Model&format=SafeTensor",
-        "add-detail-xl.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
-        "The_Dark_Side_of_the_Earth.safetensors": "https://civitai.com/api/download/models/372542?type=Model&format=SafeTensor"
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
     },
     "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
 }
